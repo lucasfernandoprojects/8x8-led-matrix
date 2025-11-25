@@ -1,4 +1,4 @@
-# RGB 8x8 LED Matrix (Custom PCB Project)
+# 8x8 RGB LED Matrix (Custom PCB Project)
 
 This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services.](https://jlcpcb.com/)
 
