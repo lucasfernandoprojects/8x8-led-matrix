@@ -152,10 +152,11 @@ Before turning on, make sure:
 Open **animations.ino** and upload it to your Arduino board. Make sure you have installed the library **Adafruit Neoxpixel**.
 
 Included patterns:
-+ Color wipe
-+ Rainbow
-+ Sparkle effect
-+ Basic waves
++ Bouncing balls
++ Color wipe (full HSV)
++ Continuous rainbow
++ Sparkle
++ Waves
 + Solid color test
 
 These tests help confirm:
