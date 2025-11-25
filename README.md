@@ -57,15 +57,15 @@ Make sure **all grounds are connected**, especially if using separate supplies.
 ### Hardware Files
 | File | Description |
 | ---- | ----------- |
-| matrix-rgb-gerber.zip	| Gerber files for PCB manufacturing |
-| matrix-rgb-bom.csv | Bill of Materials for assembly |
-| matrix-rgb-cpl.csv | Pick‑and‑place file for automated component placement |
-| matrix-rgb-schematics.pdf | Schematics of the module |
+| electronics/matrix-rgb-gerber.zip	| Gerber files for PCB manufacturing |
+| electronics/matrix-rgb-bom.csv | Bill of Materials for assembly |
+| electronics/matrix-rgb-cpl.csv | Pick‑and‑place file for automated component placement |
+| electronics/matrix-rgb-schematics.pdf | Schematics of the module |
 
 ### Firmware
 | File | Description |
 | ---- | ----------- |
-| animations.ino | Arduino sketch to test color patterns and validate the board|
+| code/animations.ino | Arduino sketch to test color patterns and validate the board|
 
 ## 🛠️HOW TO ORDER THE PCB (Sponsored by JLCPCB)
 
