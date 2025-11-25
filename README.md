@@ -2,7 +2,7 @@
 
 ![8x8 RGB LED matrix on a blue table.](https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-1.jpg)
 
-This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services.](https://jlcpcb.com/)
+This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services](https://jlcpcb.com/).
 
 This project started as a personal challenge: could I design my own WS2812B matrix from scratch, send it to manufacturing, and get a fully assembled board that actually works on the first try? I wasn’t sure, especially because this was my first time using PCB assembly. But once the box arrived and I plugged it in… seeing it light up was surreal. And now, you can build the exact same board.
 
