@@ -58,9 +58,9 @@ Make sure **all grounds are connected**, especially if using separate supplies.
 | File | Description |
 | ---- | ----------- |
 | matrix-rgb-gerber.zip	| Gerber files for PCB manufacturing |
-| matrix-led-bom.csv | Bill of Materials for assembly |
-| matrix-led-cpl.csv | Pick‑and‑place file for automated component placement |
-| matrix-led-schematics.pdf | Schematics of the module |
+| matrix-rgb-bom.csv | Bill of Materials for assembly |
+| matrix-rgb-cpl.csv | Pick‑and‑place file for automated component placement |
+| matrix-rgb-schematics.pdf | Schematics of the module |
 
 ### Firmware
 | File | Description |
