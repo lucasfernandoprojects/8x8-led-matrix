@@ -46,10 +46,10 @@ Matrix 2: DOUT → Matrix 3: DIN
 Make sure **all grounds are connected**, especially if using separate supplies.
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-7" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-8" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-12" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-13" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-7.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-8.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-12.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-13.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 
 ## 📁REPOSITORY STRUCTURE
