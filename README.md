@@ -143,8 +143,8 @@ Before turning on, make sure:
 + Brightness stays reasonable
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-20.jpg" width="843" height="763" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-19.jpg" width="755" height="197" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-20.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-19.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 
 ## 💡USING THE TEST ANIMATIONS
