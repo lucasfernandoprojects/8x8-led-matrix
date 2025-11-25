@@ -120,8 +120,8 @@ A few days later, the assembled matrices arrived. This was my first time using P
 _Refer to the manufacturing details below to order your PCBs._
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-23.jpg" width="843" height="763" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-24.jpg" width="755" height="197" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-23.png" width="843" height="763" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-24.png" width="755" height="197" style="margin: 10px;">
 </div>
 
 ## 🔌WIRING GUIDE
