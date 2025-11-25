@@ -1,5 +1,7 @@
 # 8x8 RGB LED Matrix (Custom PCB Project)
 
+![8x8 RGB LED matrix on a blue table.](https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-1.jpg)
+
 This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services.](https://jlcpcb.com/)
 
 This project started as a personal challenge: could I design my own WS2812B matrix from scratch, send it to manufacturing, and get a fully assembled board that actually works on the first try? I wasn’t sure, especially because this was my first time using PCB assembly. But once the box arrived and I plugged it in… seeing it light up was surreal. And now, you can build the exact same board.
@@ -13,6 +15,11 @@ This project started as a personal challenge: could I design my own WS2812B matr
 + Right‑angle 4‑pin connector for easy chaining
 + Fully compatible with Arduino, ESP32, Raspberry Pi, and other microcontrollers
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-3.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-4.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+
 ## ⚠️POWER & SAFETY WARNINGS
 
 ### High Current Requirement
@@ -23,6 +30,11 @@ WS2812B LEDs can draw up to **60 mA each at full white**. With 64 LEDs:
 > [!WARNING]
 > **Therefore, brightness must be limited to ~50%** to avoid overheating traces. **Avoid powering the LEDs directly from a microcontroller pin**. Use a dedicated 5V 2A power supply. If you chain multiple matrices, inject power to each board.
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-10.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-11.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+
 ### Multiple Panels
 
 The board supports clean chaining:
@@ -32,6 +44,13 @@ Matrix 2: DOUT → Matrix 3: DIN
 ...
 ```
 Make sure **all grounds are connected**, especially if using separate supplies.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-7" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-8" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-12" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-13" width="400" height="250" style="margin: 10px;">
+</div>
 
 ## 📁REPOSITORY STRUCTURE
 
@@ -53,6 +72,13 @@ Make sure **all grounds are connected**, especially if using separate supplies.
 This project is proudly sponsored by [JLCPCB](https://jlcpcb.com/), who handled both the PCB manufacturing and full assembly for this matrix. If you’ve never ordered an assembled PCB before, this is honestly the easiest way to turn an idea into real hardware.
 
 You design your board → upload the files → choose the assembly options → and a few days later, you get a professional, fully assembled module at your doorstep. No soldering 64 LEDs by hand. No dealing with reflow. No headaches.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-21.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-16.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-14.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-15.jpg" width="400" height="250" style="margin: 10px;">
+</div>
 
 I used JLCPCB’s PCBA service, which places places the components automatically, but also offering by hand soldering when you need it. They even added edge rails to the PCB so the machines could hold it properly during reflow.
 
@@ -91,6 +117,11 @@ Check the 3D preview, confirm everything looks correct, and place the order.
 
 A few days later, the assembled matrices arrived. This was my first time using PCB assembly, so I genuinely didn’t know if the project would work. But after powering up the board with the test sketch, everything lit up perfectly on the first try (a very satisfying moment).
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-23.jpg" width="843" height="763" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-24.jpg" width="755" height="197" style="margin: 10px;">
+</div>
+
 ## 🔌WIRING GUIDE
 ## Single Matrix Wiring
 ```
@@ -108,6 +139,11 @@ Matrix B DOUT → Matrix C DIN
 ```
 Before turning on, make sure:
 + Brightness stays reasonable
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-20.jpg" width="843" height="763" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-19.jpg" width="755" height="197" style="margin: 10px;">
+</div>
 
 ## 💡USING THE TEST ANIMATIONS
 
@@ -138,6 +174,8 @@ A few engineering decisions behind the board:
 If you're learning PCB design, LED driving, or embedded systems, this project is the perfect mix of challenge and reward. It proves that even as a beginner, you can build hardware that feels professional.
 
 Remember, **you can invent anything you set your mind to**.
+
+![8x8 RGB LED matrix focusing on the brand - INVENT.](https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-18.jpg)
 
 Feel free to fork the project, redesign the layout, or build a giant display by chaining multiple panels.
 
