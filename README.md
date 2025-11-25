@@ -21,8 +21,7 @@ WS2812B LEDs can draw up to **60 mA each at full white**. With 64 LEDs:
 + **Matrix PCB rating**: ~2A
 
 > [!WARNING]
-> **Therefore, brightness must be limited to ~50%** to avoid overheating traces.
-> **Avoid powering the LEDs directly from a microcontroller pin**. Use a dedicated 5V 2A power supply. If you chain multiple matrices, inject power to each board.
+> **Therefore, brightness must be limited to ~50%** to avoid overheating traces. **Avoid powering the LEDs directly from a microcontroller pin**. Use a dedicated 5V 2A power supply. If you chain multiple matrices, inject power to each board.
 
 ### Multiple Panels
 
@@ -92,91 +91,59 @@ Check the 3D preview, confirm everything looks correct, and place the order.
 A few days later, the assembled matrices arrived. This was my first time using PCB assembly, so I genuinely didn’t know if the project would work. But after powering up the board with the test sketch, everything lit up perfectly on the first try (a very satisfying moment).
 
 ## 🔌WIRING GUIDE
+## Single Matrix Wiring
 ```
-Single Matrix Wiring
 5V  → 5V
 GND → GND
 DIN → Microcontroller pin
 ```
 Recommended:
-5V external supply, not USB power
++ 5V external supply, not USB power
 
-Chaining Multiple Matrices
+### Chaining Multiple Matrices
+```
 Matrix A DOUT → Matrix B DIN
 Matrix B DOUT → Matrix C DIN
+```
+Before turning on, make sure:
++ Brightness stays reasonable
 
-Make sure:
+## 💡USING THE TEST ANIMATIONS
 
-5V is injected where needed
-
-GND is shared
-
-Brightness stays reasonable
-
-💡 Using the Test Animations
-
-Open animations.ino and upload it to any board that supports NeoPixel/WS2812B libraries.
+Open **animations.ino** and upload it to your Arduino board. Make sure you have installed the library **Adafruit Neoxpixel**.
 
 Included patterns:
-
-Color wipe
-
-Rainbow
-
-Sparkle effect
-
-Basic waves
-
-Solid color test
++ Color wipe
++ Rainbow
++ Sparkle effect
++ Basic waves
++ Solid color test
 
 These tests help confirm:
++ LED orientation
++ Data signal integrity
++ No cold solder joints
++ Power stability
 
-LED orientation
-
-Data signal integrity
-
-No cold solder joints
-
-Power stability
-
-📐 Design Notes
+## 📐DESIGN NOTES
 
 A few engineering decisions behind the board:
++ Each WS2812B has its own 100nF capacitor for stability.
++ Power traces were sized for ~2A continuous current.
++ Right‑angle connectors were chosen for cleaner cable management.
 
-Each WS2812B has its own 100 nF bypass capacitor for stability.
-
-Power traces were sized for ~2A continuous current.
-
-The matrix routing alternates direction per row for easier data flow.
-
-Right‑angle connectors were chosen for cleaner cable management.
-
-Mounting holes allow installation inside cases or displays.
-
-📸 Demo
-
-The project video (link coming soon) shows:
-
-PCB design overview
-
-Ordering process & JLCPCB assembly
-
-First power‑up
-
-Animation testing
-
-Chaining multiple matrices together
-
-🚀 Final Thoughts
+## 🚀FINAL THOUGHTS
 
 If you're learning PCB design, LED driving, or embedded systems, this project is the perfect mix of challenge and reward. It proves that even as a beginner, you can build hardware that feels professional.
 
+Remember, **you can invent anything you set your mind to**.
+
 Feel free to fork the project, redesign the layout, or build a giant display by chaining multiple panels.
 
-🧱 License
+## 🧱LICENSE
 
 This project is released under the GPL‑3.0 License.
 
-You are free to modify, study, and share it — as long as derivatives remain open‑source under the same license.
+You are free to modify, study, and share it as long as derivatives remain open‑source under the same license.
 
-Enjoy building your matrix! 🔥
+Enjoy building your matrix🔥
