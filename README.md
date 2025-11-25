@@ -80,7 +80,7 @@ You design your board → upload the files → choose the assembly options → a
     <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-15.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 
-I used JLCPCB’s PCBA service, which places places the components automatically, but also offering by hand soldering when you need it. They even added edge rails to the PCB so the machines could hold it properly during reflow.
+I used [JLCPCB’s PCBA service](https://jlcpcb.com/pcb-assembly), which places places the components automatically, but also offering by hand soldering when you need it. They even added edge rails to the PCB so the machines could hold it properly during reflow.
 
 Here’s the exact configuration used to manufacture this board:
 
