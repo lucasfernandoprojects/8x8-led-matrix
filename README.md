@@ -89,15 +89,15 @@ Upload matrix-rgb-gerber.zip at JLCPCB.
 
 ### 2. PCB Options
 + Layers: 2
-+ Color: Black
-+ Thickness: Default
-+ Surface finish: Default
-+ Edge rails: Added automatically by JLCPCB (needed for assembly)
++ Color: black
++ Thickness: default
++ Surface finish: default
++ Edge rails: added automatically by JLCPCB (needed for assembly)
 
 ### 3. Assembly Options
-+ PCBA Type: Standard
-+ Side: Top only
-+ Quantity: As needed
++ PCBA Type: standard
++ Side: top only
++ Quantity: as needed
 
 ### 4. Components Used (LCSC Codes)
 + WS2812B LEDs: C22371521
@@ -116,6 +116,8 @@ JLCPCB’s web viewer automatically shows part placement, orientation, and polar
 Check the 3D preview, confirm everything looks correct, and place the order.
 
 A few days later, the assembled matrices arrived. This was my first time using PCB assembly, so I genuinely didn’t know if the project would work. But after powering up the board with the test sketch, everything lit up perfectly on the first try (a very satisfying moment).
+
+_Refer to the manufacturing details below to order your PCBs._
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-23.jpg" width="843" height="763" style="margin: 10px;">
