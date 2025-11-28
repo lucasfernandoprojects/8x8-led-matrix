@@ -4,7 +4,7 @@ I've recently posted a tutorial about this project on YouTube. You can watch it 
 
 ![8x8 RGB LED matrix on a blue table.](https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-1.jpg)
 
-This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services](https://jlcpcb.com/).
+This repository contains everything you need to build, assemble, and program your own 8x8 RGB LED matrix, fully designed as a custom PCB and manufactured using [JLCPCB’s fabrication and assembly services](https://jlcpcb.com/?from=LucasFernando).
 
 This project started as a personal challenge: could I design my own WS2812B matrix from scratch, send it to manufacturing, and get a fully assembled board that actually works on the first try? I wasn’t sure, especially because this was my first time using PCB assembly. But once the box arrived and I plugged it in… seeing it light up was surreal. And now, you can build the exact same board.
 
@@ -71,7 +71,7 @@ Make sure **all grounds are connected**, especially if using separate supplies.
 
 ## 🛠️HOW TO ORDER THE PCB (Sponsored by JLCPCB)
 
-This project is proudly sponsored by [JLCPCB](https://jlcpcb.com/), who handled both the PCB manufacturing and full assembly for this matrix. If you’ve never ordered an assembled PCB before, this is honestly the easiest way to turn an idea into real hardware.
+This project is proudly sponsored by [JLCPCB](https://jlcpcb.com/?from=LucasFernando), who handled both the PCB manufacturing and full assembly for this matrix. If you’ve never ordered an assembled PCB before, this is honestly the easiest way to turn an idea into real hardware.
 
 You design your board → upload the files → choose the assembly options → and a few days later, you get a professional, fully assembled module at your doorstep. No soldering 64 LEDs by hand. No dealing with reflow. No headaches.
 
@@ -82,7 +82,7 @@ You design your board → upload the files → choose the assembly options → a
     <img src="https://github.com/lucasfernandoprojects/8x8-led-matrix/blob/main/photos/matrix-15.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 
-I used [JLCPCB’s PCBA service](https://jlcpcb.com/pcb-assembly), which places places the components automatically, but also offering by hand soldering when you need it. They even added edge rails to the PCB so the machines could hold it properly during reflow.
+I used [JLCPCB’s PCBA service](https://jlcpcb.com/?from=LucasFernando), which places places the components automatically, but also offering by hand soldering when you need it. They even added edge rails to the PCB so the machines could hold it properly during reflow.
 
 Here’s the exact configuration used to manufacture this board:
 
